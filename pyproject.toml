@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mi-complication-project"
+version = "0.1.0"
+description = "Notebook-first myocardial infarction complication analysis scaffold."
+requires-python = "==3.12.2"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "bokeh",
+    "scipy",
+    "scikit-learn",
+    "statsmodels",
+    "notebook",
+    "ipykernel",
+]
+
+[tool.setuptools]
+py-modules = []
+
+# Preferred local workflow:
+#   uv venv .venv --python 3.12.2
+#   uv sync
+#   .\.venv\Scripts\Activate.ps1

@@ -1,0 +1,4 @@
+model,baseline_class_weight,baseline_cv_balanced_accuracy,weighted_class_weight,weighted_cv_balanced_accuracy,weighted_minus_baseline,preferred_class_weight_from_cv
+DecisionTreeClassifier,None,0.5190042674253201,balanced,0.5574679943100996,0.0384637268847795,balanced
+LogisticRegression,None,0.5233285917496444,balanced,0.6176386913229018,0.09431009957325742,balanced
+SVC,None,0.5025604551920342,balanced,0.6253200568990043,0.12275960170697009,balanced

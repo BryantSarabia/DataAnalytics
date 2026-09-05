@@ -1,0 +1,7 @@
+stage,data_used,scope,rule
+outer split,raw admission-safe data,fit/validation/test,all partitions are disjoint before learned preprocessing
+manual CV preprocessing,each CV subfold train only,5 deterministic stratified folds,"missingness, imputation, clipping, and scaling exclude each subfold validation"
+model selection,fit partition folds only,all model/hyperparameter combinations,highest mean balanced accuracy; lower standard deviation and parameter signature break ties
+final preprocessing and fit,fit partition only,SVC,"one preprocessor, scaler, and model; validation is not fitted"
+threshold selection,validation partition only,SVC,same fitted model and feature schema; no refit follows
+final evaluation,test partition exactly once,SVC,"same fitted model, scaler, preprocessor, schema, and locked threshold"

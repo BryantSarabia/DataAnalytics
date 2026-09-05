@@ -1,0 +1,2 @@
+test_evaluation_order,model,class_weight,selected_threshold,best_params,accuracy,balanced_accuracy,recall,precision,f1,roc_auc,tn,fp,fn,tp
+1,SVC,balanced,0.5055943698220693,C=0.1; class_weight=balanced; kernel=linear,0.7470588235294118,0.5243506493506493,0.25,0.11428571428571428,0.1568627450980392,0.5596590909090909,246,62,24,8

@@ -1,0 +1,541 @@
+model,parameter_signature,fold,preprocessor_fit_rows,fold_validation_rows,scaler_fit_rows,feature_count,train_validation_disjoint,reserved_indices_excluded,schema_match
+LogisticRegression,C=0.1; class_weight=None,1,816,204,816,98,True,True,True
+LogisticRegression,C=0.1; class_weight=None,2,816,204,816,97,True,True,True
+LogisticRegression,C=0.1; class_weight=None,3,816,204,816,98,True,True,True
+LogisticRegression,C=0.1; class_weight=None,4,816,204,816,96,True,True,True
+LogisticRegression,C=0.1; class_weight=None,5,816,204,816,98,True,True,True
+LogisticRegression,C=0.1; class_weight=balanced,1,816,204,816,98,True,True,True
+LogisticRegression,C=0.1; class_weight=balanced,2,816,204,816,97,True,True,True
+LogisticRegression,C=0.1; class_weight=balanced,3,816,204,816,98,True,True,True
+LogisticRegression,C=0.1; class_weight=balanced,4,816,204,816,96,True,True,True
+LogisticRegression,C=0.1; class_weight=balanced,5,816,204,816,98,True,True,True
+LogisticRegression,C=1.0; class_weight=None,1,816,204,816,98,True,True,True
+LogisticRegression,C=1.0; class_weight=None,2,816,204,816,97,True,True,True
+LogisticRegression,C=1.0; class_weight=None,3,816,204,816,98,True,True,True
+LogisticRegression,C=1.0; class_weight=None,4,816,204,816,96,True,True,True
+LogisticRegression,C=1.0; class_weight=None,5,816,204,816,98,True,True,True
+LogisticRegression,C=1.0; class_weight=balanced,1,816,204,816,98,True,True,True
+LogisticRegression,C=1.0; class_weight=balanced,2,816,204,816,97,True,True,True
+LogisticRegression,C=1.0; class_weight=balanced,3,816,204,816,98,True,True,True
+LogisticRegression,C=1.0; class_weight=balanced,4,816,204,816,96,True,True,True
+LogisticRegression,C=1.0; class_weight=balanced,5,816,204,816,98,True,True,True
+LogisticRegression,C=5.0; class_weight=None,1,816,204,816,98,True,True,True
+LogisticRegression,C=5.0; class_weight=None,2,816,204,816,97,True,True,True
+LogisticRegression,C=5.0; class_weight=None,3,816,204,816,98,True,True,True
+LogisticRegression,C=5.0; class_weight=None,4,816,204,816,96,True,True,True
+LogisticRegression,C=5.0; class_weight=None,5,816,204,816,98,True,True,True
+LogisticRegression,C=5.0; class_weight=balanced,1,816,204,816,98,True,True,True
+LogisticRegression,C=5.0; class_weight=balanced,2,816,204,816,97,True,True,True
+LogisticRegression,C=5.0; class_weight=balanced,3,816,204,816,98,True,True,True
+LogisticRegression,C=5.0; class_weight=balanced,4,816,204,816,96,True,True,True
+LogisticRegression,C=5.0; class_weight=balanced,5,816,204,816,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=3; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=3; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=3; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=3; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=3; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=3; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=3; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=3; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=3; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=3; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=5; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=5; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=5; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=5; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=5; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=5; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=5; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=5; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=5; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=5; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=1,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=1,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=1,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=1,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=1,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=5,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=5,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=5,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=5,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=5,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=None; max_depth=None; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=None; max_depth=None; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=None; max_depth=None; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=None; max_depth=None; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=None; max_depth=None; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0; class_weight=balanced; max_depth=None; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.0005; class_weight=balanced; max_depth=None; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.001; class_weight=balanced; max_depth=None; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.005; class_weight=balanced; max_depth=None; min_samples_leaf=10,5,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=10,1,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=10,2,816,204,0,97,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=10,3,816,204,0,98,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=10,4,816,204,0,96,True,True,True
+DecisionTreeClassifier,ccp_alpha=0.01; class_weight=balanced; max_depth=None; min_samples_leaf=10,5,816,204,0,98,True,True,True
+SVC,C=0.1; class_weight=None; kernel=linear,1,816,204,816,98,True,True,True
+SVC,C=0.1; class_weight=None; kernel=linear,2,816,204,816,97,True,True,True
+SVC,C=0.1; class_weight=None; kernel=linear,3,816,204,816,98,True,True,True
+SVC,C=0.1; class_weight=None; kernel=linear,4,816,204,816,96,True,True,True
+SVC,C=0.1; class_weight=None; kernel=linear,5,816,204,816,98,True,True,True
+SVC,C=0.1; class_weight=balanced; kernel=linear,1,816,204,816,98,True,True,True
+SVC,C=0.1; class_weight=balanced; kernel=linear,2,816,204,816,97,True,True,True
+SVC,C=0.1; class_weight=balanced; kernel=linear,3,816,204,816,98,True,True,True
+SVC,C=0.1; class_weight=balanced; kernel=linear,4,816,204,816,96,True,True,True
+SVC,C=0.1; class_weight=balanced; kernel=linear,5,816,204,816,98,True,True,True
+SVC,C=0.1; class_weight=None; kernel=rbf,1,816,204,816,98,True,True,True
+SVC,C=0.1; class_weight=None; kernel=rbf,2,816,204,816,97,True,True,True
+SVC,C=0.1; class_weight=None; kernel=rbf,3,816,204,816,98,True,True,True
+SVC,C=0.1; class_weight=None; kernel=rbf,4,816,204,816,96,True,True,True
+SVC,C=0.1; class_weight=None; kernel=rbf,5,816,204,816,98,True,True,True
+SVC,C=0.1; class_weight=balanced; kernel=rbf,1,816,204,816,98,True,True,True
+SVC,C=0.1; class_weight=balanced; kernel=rbf,2,816,204,816,97,True,True,True
+SVC,C=0.1; class_weight=balanced; kernel=rbf,3,816,204,816,98,True,True,True
+SVC,C=0.1; class_weight=balanced; kernel=rbf,4,816,204,816,96,True,True,True
+SVC,C=0.1; class_weight=balanced; kernel=rbf,5,816,204,816,98,True,True,True
+SVC,C=1.0; class_weight=None; kernel=linear,1,816,204,816,98,True,True,True
+SVC,C=1.0; class_weight=None; kernel=linear,2,816,204,816,97,True,True,True
+SVC,C=1.0; class_weight=None; kernel=linear,3,816,204,816,98,True,True,True
+SVC,C=1.0; class_weight=None; kernel=linear,4,816,204,816,96,True,True,True
+SVC,C=1.0; class_weight=None; kernel=linear,5,816,204,816,98,True,True,True
+SVC,C=1.0; class_weight=balanced; kernel=linear,1,816,204,816,98,True,True,True
+SVC,C=1.0; class_weight=balanced; kernel=linear,2,816,204,816,97,True,True,True
+SVC,C=1.0; class_weight=balanced; kernel=linear,3,816,204,816,98,True,True,True
+SVC,C=1.0; class_weight=balanced; kernel=linear,4,816,204,816,96,True,True,True
+SVC,C=1.0; class_weight=balanced; kernel=linear,5,816,204,816,98,True,True,True
+SVC,C=1.0; class_weight=None; kernel=rbf,1,816,204,816,98,True,True,True
+SVC,C=1.0; class_weight=None; kernel=rbf,2,816,204,816,97,True,True,True
+SVC,C=1.0; class_weight=None; kernel=rbf,3,816,204,816,98,True,True,True
+SVC,C=1.0; class_weight=None; kernel=rbf,4,816,204,816,96,True,True,True
+SVC,C=1.0; class_weight=None; kernel=rbf,5,816,204,816,98,True,True,True
+SVC,C=1.0; class_weight=balanced; kernel=rbf,1,816,204,816,98,True,True,True
+SVC,C=1.0; class_weight=balanced; kernel=rbf,2,816,204,816,97,True,True,True
+SVC,C=1.0; class_weight=balanced; kernel=rbf,3,816,204,816,98,True,True,True
+SVC,C=1.0; class_weight=balanced; kernel=rbf,4,816,204,816,96,True,True,True
+SVC,C=1.0; class_weight=balanced; kernel=rbf,5,816,204,816,98,True,True,True
+SVC,C=5.0; class_weight=None; kernel=linear,1,816,204,816,98,True,True,True
+SVC,C=5.0; class_weight=None; kernel=linear,2,816,204,816,97,True,True,True
+SVC,C=5.0; class_weight=None; kernel=linear,3,816,204,816,98,True,True,True
+SVC,C=5.0; class_weight=None; kernel=linear,4,816,204,816,96,True,True,True
+SVC,C=5.0; class_weight=None; kernel=linear,5,816,204,816,98,True,True,True
+SVC,C=5.0; class_weight=balanced; kernel=linear,1,816,204,816,98,True,True,True
+SVC,C=5.0; class_weight=balanced; kernel=linear,2,816,204,816,97,True,True,True
+SVC,C=5.0; class_weight=balanced; kernel=linear,3,816,204,816,98,True,True,True
+SVC,C=5.0; class_weight=balanced; kernel=linear,4,816,204,816,96,True,True,True
+SVC,C=5.0; class_weight=balanced; kernel=linear,5,816,204,816,98,True,True,True
+SVC,C=5.0; class_weight=None; kernel=rbf,1,816,204,816,98,True,True,True
+SVC,C=5.0; class_weight=None; kernel=rbf,2,816,204,816,97,True,True,True
+SVC,C=5.0; class_weight=None; kernel=rbf,3,816,204,816,98,True,True,True
+SVC,C=5.0; class_weight=None; kernel=rbf,4,816,204,816,96,True,True,True
+SVC,C=5.0; class_weight=None; kernel=rbf,5,816,204,816,98,True,True,True
+SVC,C=5.0; class_weight=balanced; kernel=rbf,1,816,204,816,98,True,True,True
+SVC,C=5.0; class_weight=balanced; kernel=rbf,2,816,204,816,97,True,True,True
+SVC,C=5.0; class_weight=balanced; kernel=rbf,3,816,204,816,98,True,True,True
+SVC,C=5.0; class_weight=balanced; kernel=rbf,4,816,204,816,96,True,True,True
+SVC,C=5.0; class_weight=balanced; kernel=rbf,5,816,204,816,98,True,True,True

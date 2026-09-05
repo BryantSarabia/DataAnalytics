@@ -1,0 +1,125 @@
+column_number,column_name,group,status,reason
+1,ID,identifier,excluded,Reference-only identifier
+2,AGE,input,included,Admission-time candidate predictor
+3,SEX,input,included,Admission-time candidate predictor
+4,INF_ANAM,input,included,Admission-time candidate predictor
+5,STENOK_AN,input,included,Admission-time candidate predictor
+6,FK_STENOK,input,included,Admission-time candidate predictor
+7,IBS_POST,input,included,Admission-time candidate predictor
+8,IBS_NASL,input,included,Admission-time candidate predictor
+9,GB,input,included,Admission-time candidate predictor
+10,SIM_GIPERT,input,included,Admission-time candidate predictor
+11,DLIT_AG,input,included,Admission-time candidate predictor
+12,ZSN_A,input,included,Admission-time candidate predictor
+13,nr_11,input,included,Admission-time candidate predictor
+14,nr_01,input,included,Admission-time candidate predictor
+15,nr_02,input,included,Admission-time candidate predictor
+16,nr_03,input,included,Admission-time candidate predictor
+17,nr_04,input,included,Admission-time candidate predictor
+18,nr_07,input,included,Admission-time candidate predictor
+19,nr_08,input,included,Admission-time candidate predictor
+20,np_01,input,included,Admission-time candidate predictor
+21,np_04,input,included,Admission-time candidate predictor
+22,np_05,input,included,Admission-time candidate predictor
+23,np_07,input,included,Admission-time candidate predictor
+24,np_08,input,included,Admission-time candidate predictor
+25,np_09,input,included,Admission-time candidate predictor
+26,np_10,input,included,Admission-time candidate predictor
+27,endocr_01,input,included,Admission-time candidate predictor
+28,endocr_02,input,included,Admission-time candidate predictor
+29,endocr_03,input,included,Admission-time candidate predictor
+30,zab_leg_01,input,included,Admission-time candidate predictor
+31,zab_leg_02,input,included,Admission-time candidate predictor
+32,zab_leg_03,input,included,Admission-time candidate predictor
+33,zab_leg_04,input,included,Admission-time candidate predictor
+34,zab_leg_06,input,included,Admission-time candidate predictor
+35,S_AD_KBRIG,input,included,Admission-time candidate predictor
+36,D_AD_KBRIG,input,included,Admission-time candidate predictor
+37,S_AD_ORIT,input,included,Admission-time candidate predictor
+38,D_AD_ORIT,input,included,Admission-time candidate predictor
+39,O_L_POST,input,included,Admission-time candidate predictor
+40,K_SH_POST,input,included,Admission-time candidate predictor
+41,MP_TP_POST,input,included,Admission-time candidate predictor
+42,SVT_POST,input,included,Admission-time candidate predictor
+43,GT_POST,input,included,Admission-time candidate predictor
+44,FIB_G_POST,input,included,Admission-time candidate predictor
+45,ant_im,input,included,Admission-time candidate predictor
+46,lat_im,input,included,Admission-time candidate predictor
+47,inf_im,input,included,Admission-time candidate predictor
+48,post_im,input,included,Admission-time candidate predictor
+49,IM_PG_P,input,included,Admission-time candidate predictor
+50,ritm_ecg_p_01,input,included,Admission-time candidate predictor
+51,ritm_ecg_p_02,input,included,Admission-time candidate predictor
+52,ritm_ecg_p_04,input,included,Admission-time candidate predictor
+53,ritm_ecg_p_06,input,included,Admission-time candidate predictor
+54,ritm_ecg_p_07,input,included,Admission-time candidate predictor
+55,ritm_ecg_p_08,input,included,Admission-time candidate predictor
+56,n_r_ecg_p_01,input,included,Admission-time candidate predictor
+57,n_r_ecg_p_02,input,included,Admission-time candidate predictor
+58,n_r_ecg_p_03,input,included,Admission-time candidate predictor
+59,n_r_ecg_p_04,input,included,Admission-time candidate predictor
+60,n_r_ecg_p_05,input,included,Admission-time candidate predictor
+61,n_r_ecg_p_06,input,included,Admission-time candidate predictor
+62,n_r_ecg_p_08,input,included,Admission-time candidate predictor
+63,n_r_ecg_p_09,input,included,Admission-time candidate predictor
+64,n_r_ecg_p_10,input,included,Admission-time candidate predictor
+65,n_p_ecg_p_01,input,included,Admission-time candidate predictor
+66,n_p_ecg_p_03,input,included,Admission-time candidate predictor
+67,n_p_ecg_p_04,input,included,Admission-time candidate predictor
+68,n_p_ecg_p_05,input,included,Admission-time candidate predictor
+69,n_p_ecg_p_06,input,included,Admission-time candidate predictor
+70,n_p_ecg_p_07,input,included,Admission-time candidate predictor
+71,n_p_ecg_p_08,input,included,Admission-time candidate predictor
+72,n_p_ecg_p_09,input,included,Admission-time candidate predictor
+73,n_p_ecg_p_10,input,included,Admission-time candidate predictor
+74,n_p_ecg_p_11,input,included,Admission-time candidate predictor
+75,n_p_ecg_p_12,input,included,Admission-time candidate predictor
+76,fibr_ter_01,input,included,Admission-time candidate predictor
+77,fibr_ter_02,input,included,Admission-time candidate predictor
+78,fibr_ter_03,input,included,Admission-time candidate predictor
+79,fibr_ter_05,input,included,Admission-time candidate predictor
+80,fibr_ter_06,input,included,Admission-time candidate predictor
+81,fibr_ter_07,input,included,Admission-time candidate predictor
+82,fibr_ter_08,input,included,Admission-time candidate predictor
+83,GIPO_K,input,included,Admission-time candidate predictor
+84,K_BLOOD,input,included,Admission-time candidate predictor
+85,GIPER_NA,input,included,Admission-time candidate predictor
+86,NA_BLOOD,input,included,Admission-time candidate predictor
+87,ALT_BLOOD,input,included,Admission-time candidate predictor
+88,AST_BLOOD,input,included,Admission-time candidate predictor
+89,KFK_BLOOD,input,included,Admission-time candidate predictor
+90,L_BLOOD,input,included,Admission-time candidate predictor
+91,ROE,input,included,Admission-time candidate predictor
+92,TIME_B_S,input,included,Admission-time candidate predictor
+93,R_AB_1_n,input,excluded,Unavailable at admission
+94,R_AB_2_n,input,excluded,Unavailable at admission
+95,R_AB_3_n,input,excluded,Unavailable at admission
+96,NA_KB,input,included,Admission-time candidate predictor
+97,NOT_NA_KB,input,included,Admission-time candidate predictor
+98,LID_KB,input,included,Admission-time candidate predictor
+99,NITR_S,input,included,Admission-time candidate predictor
+100,NA_R_1_n,input,excluded,Unavailable at admission
+101,NA_R_2_n,input,excluded,Unavailable at admission
+102,NA_R_3_n,input,excluded,Unavailable at admission
+103,NOT_NA_1_n,input,excluded,Unavailable at admission
+104,NOT_NA_2_n,input,excluded,Unavailable at admission
+105,NOT_NA_3_n,input,excluded,Unavailable at admission
+106,LID_S_n,input,included,Admission-time candidate predictor
+107,B_BLOK_S_n,input,included,Admission-time candidate predictor
+108,ANT_CA_S_n,input,included,Admission-time candidate predictor
+109,GEPAR_S_n,input,included,Admission-time candidate predictor
+110,ASP_S_n,input,included,Admission-time candidate predictor
+111,TIKL_S_n,input,included,Admission-time candidate predictor
+112,TRENT_S_n,input,included,Admission-time candidate predictor
+113,FIBR_PREDS,output,excluded,Non-target outcome
+114,PREDS_TAH,output,excluded,Non-target outcome
+115,JELUD_TAH,output,excluded,Non-target outcome
+116,FIBR_JELUD,output,excluded,Non-target outcome
+117,A_V_BLOK,output,excluded,Non-target outcome
+118,OTEK_LANC,output,excluded,Non-target outcome
+119,RAZRIV,output,excluded,Non-target outcome
+120,DRESSLER,output,excluded,Non-target outcome
+121,ZSN,output,excluded,Non-target outcome
+122,REC_IM,target,target,Prediction target
+123,P_IM_STEN,output,excluded,Non-target outcome
+124,LET_IS,output,excluded,Non-target outcome
